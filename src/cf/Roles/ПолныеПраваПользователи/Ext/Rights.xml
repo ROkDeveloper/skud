@@ -3169,13 +3169,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОчередьСообщений.Dimension.Сообщение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ.Dimension.КлючУникальности</name>
 		<right>
 			<name>Edit</name>
@@ -8768,13 +8761,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОчередьСообщений.Dimension.ЗаписанВЖурнал</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ОбъектыДоступа.Attribute.Отдел</name>
 		<right>
 			<name>Edit</name>
@@ -9528,45 +9514,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания.Attribute.ЭтоЗапуск</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОчередьСообщений</name>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОчередьСообщений.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОчередьСообщений.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОчередьСообщений.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОчередьСообщений.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

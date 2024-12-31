@@ -1520,7 +1520,6 @@
 			<InformationRegister>ФиксацияОбработкиДанныхОбработчиками</InformationRegister>
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
 			<InformationRegister>ЖурналСобытий</InformationRegister>
-			<InformationRegister>ОчередьСообщений</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
