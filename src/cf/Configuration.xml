@@ -234,7 +234,7 @@
 			<StandaloneConfigurationRestrictionRoles/>
 			<MobileApplicationURLs/>
 			<AllowedIncomingShareRequestTypes/>
-			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<MainClientApplicationWindowMode>Workplace</MainClientApplicationWindowMode>
 			<DefaultInterface/>
 			<DefaultStyle>Style.рок</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -1054,7 +1054,6 @@
 			<XDTOPackage>АдресныйКлассификатор</XDTOPackage>
 			<XDTOPackage>КонтактнаяИнформация</XDTOPackage>
 			<WebService>InterfaceVersion</WebService>
-			<HTTPService>Sigur_korp</HTTPService>
 			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
 			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</EventSubscription>

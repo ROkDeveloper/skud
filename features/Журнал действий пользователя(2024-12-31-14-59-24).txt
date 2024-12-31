@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<uilog xmlns:d1p1="http://v8.1c.ru/8.3/uilog">
+	<ClientApplicationWindow startPage="true">
+		<Form>
+			<FormGroup name="Основа">
+				<FormGroup name="Лево" title="Лево">
+					<FormGroup name="Аднин" title="Администрирование">
+						<FormButton name="ОбменCRabbit" title="Обмен c Rabbit">
+							<activate/>
+							<click/>
+						</FormButton>
+					</FormGroup>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Простой пример работы с компонентой PinkRabbitMQ">
+		<Form title="Простой пример работы с компонентой PinkRabbitMQ">
+			<FormGroup name="Вертикаль" title="Вертикаль">
+				<FormGroup name="Нетрогать" title="Не трогать заполняется из справочника">
+					<FormGroup name="ГруппаНастройкиПодключения" title="Настройки подключения">
+						<FormButton name="ПроверитьПодключение" title="Проверить подключение">
+							<activate/>
+							<click/>
+						</FormButton>
+					</FormGroup>
+					<FormGroup name="ГруппаТочкаОбменаОчередь" title="Точка обмена/очередь">
+						<FormButton name="СозданиеТочкиИОчереди" title="Создание точки и очереди">
+							<activate/>
+							<click/>
+						</FormButton>
+					</FormGroup>
+				</FormGroup>
+				<FormGroup name="ГруппаОтправитьСообщение" title="Обмен">
+					<FormGroup name="Отправить" title="Отправить сообщение">
+						<FormGroup name="Группа1" title="Группа1">
+							<FormButton name="ОтправитьСообщение" title="Отправить сообщение">
+								<activate/>
+								<click/>
+							</FormButton>
+						</FormGroup>
+					</FormGroup>
+					<FormGroup name="ПолучитьСообщение" title="Получить сообщение">
+						<FormGroup name="Группа2" title="Группа2">
+							<FormButton name="ПрочитатьСообщение" title="Прочитать сообщение">
+								<activate/>
+								<click/>
+							</FormButton>
+						</FormGroup>
+					</FormGroup>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+		<close/>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow startPage="true">
+		<Form>
+			<FormGroup name="Основа">
+				<FormGroup name="Лево" title="Лево">
+					<FormGroup name="ДокументыГруппа" title="Документы ">
+						<FormButton name="СписокНарушителей" title="Список нарушителей">
+							<activate/>
+							<click/>
+						</FormButton>
+					</FormGroup>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Список нарушителей">
+		<Form title="Список нарушителей">
+			<FormGroup name="ФормаКоманднаяПанель" title="Командная панель">
+				<FormButton name="ФормаСоздать" title="Создать">
+					<click/>
+				</FormButton>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Список нарушителей (создание)">
+		<Form title="Список нарушителей (создание)">
+			<FormField name="Отдел" title="Отдел">
+				<activate/>
+				<inputText text="Отдел программирования ООО"/>
+				<executeChoiceFromChoiceList presentation="Отдел программирования ООО &quot;А1&quot; (000000050)"/>
+			</FormField>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Список нарушителей (создание) *">
+		<Form title="Список нарушителей (создание) *">
+			<gotoNextItem/>
+			<FormTable name="ТабличнаяЧасть" title="ТабличнаяЧасть">
+				<activate/>
+				<FormGroup name="ТабличнаяЧастьКоманднаяПанель" title="Командная панель">
+					<FormButton name="ТабличнаяЧастьЗаполнить" title="Заполнить">
+						<click/>
+					</FormButton>
+				</FormGroup>
+			</FormTable>
+			<FormGroup name="ФормаКоманднаяПанель" title="Командная панель">
+				<FormGroup name="ФормаПроведение" title="Проведение">
+					<FormButton name="ФормаПровести" title="Провести">
+						<click/>
+					</FormButton>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Список нарушителей * от *">
+		<Form title="Список нарушителей * от *">
+			<FormGroup name="ФормаКоманднаяПанель" title="Командная панель">
+				<FormButton name="ФормаДокументДокументСписокНарушителейПечать" title="Печать">
+					<click/>
+				</FormButton>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Таблица">
+		<close/>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Список нарушителей * от *">
+		<close/>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Список нарушителей">
+		<close/>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow startPage="true">
+		<Form>
+			<FormGroup name="Основа">
+				<FormGroup name="Право" title="Право">
+					<FormGroup name="Динамическая" title="Динамическая">
+						<FormTable name="ЖурналСообщений" title="ЖурналСообщений">
+							<activate/>
+							<FormGroup name="ЖурналСообщенийКоманднаяПанель" title="Командная панель">
+								<FormButton name="ЖурналСообщенийОбновить" title="Обновить">
+									<click/>
+								</FormButton>
+							</FormGroup>
+						</FormTable>
+					</FormGroup>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="СКУД">
+		<Form title="СКУД">
+			<FormGroup name="Content" title="Content">
+				<FormGroup name="BottomGroup" title="Bottom group">
+					<FormGroup name="Buttons" title="Buttons">
+						<FormButton name="Button0" title="Завершить работу">
+							<click/>
+						</FormButton>
+					</FormGroup>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow startPage="true">
+		<close/>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow isMain="true">
+		<close/>
+	</ClientApplicationWindow>
+</uilog>
