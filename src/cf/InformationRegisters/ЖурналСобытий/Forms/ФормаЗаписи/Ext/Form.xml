@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="ДатаСобытия" id="1">
+			<DataPath>Запись.ДатаСобытия</DataPath>
+			<ContextMenu name="ДатаСобытияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ДатаСобытияРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ОбъектДоступа" id="4">
+			<DataPath>Запись.ОбъектДоступа</DataPath>
+			<ContextMenu name="ОбъектДоступаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ОбъектДоступаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ТочкаДоступа" id="7">
+			<DataPath>Запись.ТочкаДоступа</DataPath>
+			<ContextMenu name="ТочкаДоступаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТочкаДоступаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="НомерТочкиДоступа" id="10">
+			<DataPath>1/0:4941dba5-21cd-4a61-8136-6447b756e63f</DataPath>
+			<ContextMenu name="НомерТочкиДоступаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="НомерТочкиДоступаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Направление" id="13">
+			<DataPath>Запись.Направление</DataPath>
+			<ContextMenu name="НаправлениеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="НаправлениеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДатаУведомленияВФормате" id="16">
+			<DataPath>1/0:9b8ea7da-d770-41c6-971a-77ee7efd76d2</DataPath>
+			<ContextMenu name="ДатаУведомленияВФорматеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДатаУведомленияВФорматеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ВремяУведомленияВФормате" id="19">
+			<DataPath>1/0:b856e187-e137-4ce2-b9b4-85d1f66a72f5</DataPath>
+			<ContextMenu name="ВремяУведомленияВФорматеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ВремяУведомленияВФорматеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ГосНомера" id="22">
+			<DataPath>Запись.ГосНомера</DataPath>
+			<ContextMenu name="ГосНомераКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ГосНомераРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="СрокДействияПодпискиНаУведомления" id="25">
+			<DataPath>1/0:3c4f590e-fb8b-49b2-8dc2-950c36a817d2</DataPath>
+			<ContextMenu name="СрокДействияПодпискиНаУведомленияКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="СрокДействияПодпискиНаУведомленияРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ВремяСобытия" id="28">
+			<DataPath>Запись.ВремяСобытия</DataPath>
+			<ContextMenu name="ВремяСобытияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ВремяСобытияРасширеннаяПодсказка" id="30"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ЖурналСобытий</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="9944a8ad-f795-435c-81b5-e6df9328e5b1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НаправленияПрохода" category="Ref">
+				<xr:TypeId>54cbc83a-9eb6-448d-8dd1-d0c92744916c</xr:TypeId>
+				<xr:ValueId>71fe78b5-2738-4145-8886-3d57cb9bfe3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НаправленияПрохода" category="Manager">
+				<xr:TypeId>95d22a7e-4b12-4538-95ad-228b1a915bd5</xr:TypeId>
+				<xr:ValueId>39b01589-2bb3-42ad-b589-be861cabfb61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НаправленияПрохода" category="List">
+				<xr:TypeId>4b2ca95c-d9ed-4712-9a38-0ee64b0f1794</xr:TypeId>
+				<xr:ValueId>925d2efb-cd30-4046-ba31-4c4b737cd0f2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НаправленияПрохода</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Направления прохода</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ad46daf6-98b9-4808-9d66-e7ca4d371225">
+				<Properties>
+					<Name>Вход</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вход</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5ee0e019-f614-49fe-b8e9-60f4802a6663">
+				<Properties>
+					<Name>Выход</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выход</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
