@@ -1,0 +1,44 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' Установка черного шрифта для всех элементов
+skinparam defaultFontColor black
+
+' Define systems and boundaries
+System_Boundary(boundary_sku, "Проходы") {
+  Container(doors, "Двери", "Контроллер доступа", "Осуществляет контроль дверей") #lightblue
+  Container(gates, "Ворота", "Контроллер доступа", "Осуществляет контроль ворот") #lightblue
+  Container(barrier, "Шлакбаум", "Контроллер доступа", "Осуществляет контроль шлакбаума") #lightblue
+}
+
+System_Boundary(sku_system, "СКУД") {
+  Container(sku_api, "API СКУД", "REST API", "Система сбора и отправки данных о событиях доступа") #lightpink
+}
+
+System_Boundary(rabbitmq_system, "RabbitMQ") {
+  Container(rabbitmq, "RabbitMQ", "Система обмена сообщениями", "Передача данных между компонентами") #lightcoral
+}
+
+System_Boundary(boundary_1c, "1С") {
+  Container(1c, "1С СКУД", "База для службы безопасности", "Хранение и обработка данных о доступах") #LightGreen
+}
+
+' Relationships
+Rel(doors, sku_api, "Отправляет события доступа", "HTTP/TCP")
+Rel(gates, sku_api, "Отправляет события доступа", "HTTP/TCP")
+Rel(barrier, sku_api, "Отправляет события доступа", "HTTP/TCP")
+Rel(sku_api, rabbitmq, "Отправляет данные о событиях доступа", "AMQP")
+Rel(1c, rabbitmq, "Получает события для обработки", "AMQP")
+
+' Легенда с подробной информацией
+legend
+  | **Цвет**       | **Элемент**           | **Описание** |
+  | Синий          | Двери                  | Контроллер доступа для дверей |
+  | Синий          | Ворота                 | Контроллер доступа для ворот |
+  | Синий          | Шлакбаум               | Контроллер доступа для шлакбаума |
+  | Розовый        | API СКУД               | Система сбора и отправки данных о событиях доступа (API) |
+  | Кораловый      | RabbitMQ               | Система обмена сообщениями для передачи данных между компонентами |
+  | Зеленый        | 1С СКУД                | Система 1С для хранения и обработки данных о доступах |
+endlegend
+
+@enduml
