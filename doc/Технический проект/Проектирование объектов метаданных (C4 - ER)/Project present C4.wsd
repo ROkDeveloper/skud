@@ -24,9 +24,9 @@ System_Boundary(boundary_1c, "1С") {
 }
 
 ' Relationships
-Rel(doors, sku_api, "Отправляет события доступа", "HTTP/TCP")
-Rel(gates, sku_api, "Отправляет события доступа", "HTTP/TCP")
-Rel(barrier, sku_api, "Отправляет события доступа", "HTTP/TCP")
+Rel(doors, sku_api, "Отправляет события доступа", "TCP")
+Rel(gates, sku_api, "Отправляет события доступа", "TCP")
+Rel(barrier, sku_api, "Отправляет события доступа", "TCP")
 Rel(sku_api, rabbitmq, "Отправляет данные о событиях доступа", "AMQP")
 Rel(1c, rabbitmq, "Получает события для обработки", "AMQP")
 
