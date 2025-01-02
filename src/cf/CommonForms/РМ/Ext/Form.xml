@@ -71,11 +71,6 @@
 									<CommandName>Catalog.ТочкиДоступа.StandardCommand.OpenList</CommandName>
 									<ExtendedTooltip name="СправочникТочкиДоступаОткрытьСписокРасширеннаяПодсказка" id="10"/>
 								</Button>
-								<Button name="СправочникСобытияОткрытьСписок" id="7">
-									<Type>UsualButton</Type>
-									<CommandName>Catalog.События.StandardCommand.OpenList</CommandName>
-									<ExtendedTooltip name="СправочникСобытияОткрытьСписокРасширеннаяПодсказка" id="8"/>
-								</Button>
 								<Button name="ПодключениеRabbit" id="214">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ПодключениеRabbit</CommandName>
