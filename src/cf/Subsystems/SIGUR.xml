@@ -20,7 +20,17 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.sigur</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6f4a344d-cd4f-4f78-ba8b-a110173955c5</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетЖурналСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПростойПримерРаботыСКомпонентойPinkRabbitMQ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДокументСписокНарушителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТочкиДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОбъектыДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Должность</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Отдел</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подключение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ExportData</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ImportData</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

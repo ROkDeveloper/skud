@@ -17,7 +17,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналСобытий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ee3bc550-debd-4c9d-83fc-dc461bf43d61</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеПоНарушители</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

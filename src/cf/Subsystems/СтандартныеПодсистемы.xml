@@ -19,6 +19,7 @@
 		</Properties>
 		<ChildObjects>
 			<Subsystem>АдресныйКлассификатор</Subsystem>
+			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>ВариантыОтчетов</Subsystem>
 			<Subsystem>ГрупповоеИзменениеОбъектов</Subsystem>
 			<Subsystem>ДополнительныеОтчетыИОбработки</Subsystem>
@@ -28,6 +29,7 @@
 			<Subsystem>Мультиязычность</Subsystem>
 			<Subsystem>НастройкаПорядкаЭлементов</Subsystem>
 			<Subsystem>ОбновлениеВерсииИБ</Subsystem>
+			<Subsystem>ОценкаПроизводительности</Subsystem>
 			<Subsystem>Печать</Subsystem>
 			<Subsystem>ПодключаемыеКоманды</Subsystem>
 			<Subsystem>ПолучениеФайловИзИнтернета</Subsystem>
@@ -36,11 +38,10 @@
 			<Subsystem>РаботаСПочтовымиСообщениями</Subsystem>
 			<Subsystem>РаботаСФайлами</Subsystem>
 			<Subsystem>РассылкаОтчетов</Subsystem>
-			<Subsystem>БазоваяФункциональность</Subsystem>
+			<Subsystem>РегламентныеЗадания</Subsystem>
 			<Subsystem>Свойства</Subsystem>
 			<Subsystem>УправлениеДоступом</Subsystem>
 			<Subsystem>УчетОригиналовПервичныхДокументов</Subsystem>
-			<Subsystem>РегламентныеЗадания</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

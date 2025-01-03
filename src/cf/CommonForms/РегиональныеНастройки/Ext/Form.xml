@@ -107,7 +107,7 @@
 										</InputField>
 										<Button name="ВремяТекущегоСеанса" id="8">
 											<Type>Hyperlink</Type>
-											<CommandName>CommonCommand.ВремяТекущегоСеанса</CommandName>
+											<CommandName>CommonCommand.ВремяВПриложении</CommandName>
 											<ExtendedTooltip name="ВремяТекущегоСеансаРасширеннаяПодсказка" id="9"/>
 										</Button>
 									</ChildItems>

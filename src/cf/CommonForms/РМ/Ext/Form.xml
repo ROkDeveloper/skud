@@ -128,6 +128,11 @@
 									<CommandName>Report.УниверсальныйОтчет.Command.УниверсальныйОтчет</CommandName>
 									<ExtendedTooltip name="ОтчетУниверсальныйОтчетУниверсальныйОтчетРасширеннаяПодсказка" id="26"/>
 								</Button>
+								<Button name="ОценкаПроизводительностиОтчет" id="224">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОценкаПроизводительностиОтчет</CommandName>
+									<ExtendedTooltip name="ОценкаПроизводительностиОтчетРасширеннаяПодсказка" id="225"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Аднин" id="31">
@@ -198,6 +203,29 @@
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.СписокНарушителей</CommandName>
 									<ExtendedTooltip name="СписокНарушителейРасширеннаяПодсказка" id="211"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Производительность" id="220">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Производительность </v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ПроизводительностьРасширеннаяПодсказка" id="221"/>
+							<ChildItems>
+								<Button name="ОценкаПроизводительности" id="218">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОценкаПроизводительности</CommandName>
+									<ExtendedTooltip name="ОценкаПроизводительностиРасширеннаяПодсказка" id="219"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
@@ -668,6 +696,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПодключениеRabbit</Action>
+		</Command>
+		<Command name="ОценкаПроизводительности" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оценка производительности</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оценка производительности</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОценкаПроизводительности</Action>
+		</Command>
+		<Command name="ОценкаПроизводительностиОтчет" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оценка производительности отчет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оценка производительности отчет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОценкаПроизводительностиОтчет</Action>
 		</Command>
 	</Commands>
 </Form>

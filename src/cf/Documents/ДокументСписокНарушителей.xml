@@ -60,7 +60,9 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеПоНарушители</xr:Item>
+			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -218,25 +220,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Template>Печать</Template>
-			<Command uuid="76c0ffe0-b5ff-40bf-a32a-2ff59d719b7e">
-				<Properties>
-					<Name>Печать</Name>
-					<Synonym/>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:DocumentRef.ДокументСписокНарушителей</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
+			<Template>ПФ_Печать</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

@@ -1,19 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
-	<Item id="79408e56-9736-4fac-b11a-a8576f5a2948">
-		<Name>РегистрСведений_ДемоРаботникиОрганизаций</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="11f4f8a3-e2c3-4d4f-b7e2-a0bfaa1f0194">
 		<Name>РегистрСведенийНастройкиВариантовОтчетов</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="89758179-3365-4c00-ae48-fee2c085a47d">
-		<Name>РегистрСведений_ДемоРеестрСкладскихДокументов</Name>
 		<Code/>
 		<Description/>
 		<IsFolder>false</IsFolder>
@@ -50,66 +38,6 @@
 	</Item>
 	<Item id="911a6de4-2849-4b14-80e2-2bef5cad025c">
 		<Name>РегистрСведенийПредметыПапкиВзаимодействий</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="f7bafdb3-44d5-49ec-bafa-63c23dd95c0f">
-		<Name>РегистрНакопления_ДемоОстаткиТоваровВМестахХранения</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="c4a48bbb-6a51-48b5-9e3d-1600a6ffdb7e">
-		<Name>РегистрСведений_ДемоЗаведующиеМестамиХранения</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="cde6c693-18f2-42a0-93d8-2c7541c336f7">
-		<Name>РегистрСведений_ДемоЦеныНоменклатуры</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="5a2143e3-040d-4761-960b-6d8c5ae58b6a">
-		<Name>РегистрСведений_ДемоЗагружаемыеПоступленияОтЮридическихЛиц</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="3e92a326-d772-4923-8a9e-b7a00f45cab5">
-		<Name>РегистрБухгалтерии_ДемоОсновной</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="34b6d5ac-7daf-4a87-8e8d-4e807814a96e">
-		<Name>РегистрНакопления_ДемоОборотыПоСчетамНаОплату</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="a24ad291-95cf-4d2e-b51e-bb718038aaa9">
-		<Name>РегистрРасчета_ДемоОсновныеНачисления</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="f16cf786-b64e-4fa2-b81e-414230794a33">
-		<Name>РегистрСведений_ДемоГрафикиРаботы</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="41a4f9cc-0425-416e-9272-f07a4f125309">
-		<Name>РегистрСведений_ДемоНаличиеЗаметокПоПредмету</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="31174ce3-c591-4206-808f-2b68ff0e3ab7">
-		<Name>РегистрСведений_ДемоОтветственныеЛица</Name>
 		<Code/>
 		<Description/>
 		<IsFolder>false</IsFolder>
@@ -398,18 +326,6 @@
 	</Item>
 	<Item id="36157b26-3c67-45f9-86ad-490caf83366b">
 		<Name>РегистрСведенийКлючиДоступаКРегистрам</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="ff943a08-1471-479f-8ab1-73427e3f3302">
-		<Name>РегистрСведенийКлючиДоступаКРегистру_ДемоЗагружаемыеПоступленияОтЮридическихЛиц</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="9aee0a47-db67-469b-a981-d30d0b738e30">
-		<Name>РегистрСведенийКлючиДоступаКРегистру_ДемоОстаткиТоваровВМестахХранения</Name>
 		<Code/>
 		<Description/>
 		<IsFolder>false</IsFolder>
@@ -1194,12 +1110,6 @@
 		<Description/>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="83bfdf7f-4354-475f-881a-0072894d682e">
-		<Name>РегистрСведений_ДемоРеестрДокументов</Name>
-		<Code/>
-		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="30c9965b-1763-49b0-b2ec-695a90a849a2">
 		<Name>РегистрСведенийСостоянияОригиналовПервичныхДокументов</Name>
 		<Code/>
@@ -1234,12 +1144,6 @@
 		<Name>РегистрСведенийСнимкиОтчетов</Name>
 		<Code/>
 		<Description/>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="3594586a-611c-4809-be51-067a3e11e164">
-		<Name>РегистрСведенийСЖурналСобытий</Name>
-		<Code/>
-		<Description>Регистр сведений с журнал событий</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

@@ -6148,7 +6148,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.ВремяТекущегоСеанса</name>
+		<name>CommonCommand.ВремяВПриложении</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

@@ -13,7 +13,7 @@
 			<MethodName>CommonModule.ДополнительныеОтчетыИОбработки.ВыполнитьОбработкуПоРегламентномуЗаданию</MethodName>
 			<Description>Запуск дополнительных обработок</Description>
 			<Key/>
-			<Use>true</Use>
+			<Use>false</Use>
 			<Predefined>false</Predefined>
 			<RestartCountOnFailure>3</RestartCountOnFailure>
 			<RestartIntervalOnFailure>10</RestartIntervalOnFailure>
